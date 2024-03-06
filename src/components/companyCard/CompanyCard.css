@@ -1,0 +1,13 @@
+.company-card-container{
+    min-width: 45%;
+    box-shadow: 0 0 3px -2px;
+}
+
+
+
+
+@media (min-width: 670px){
+.company-card-container    .MuiPaper-root{
+       min-width: 500px;
+    }
+}

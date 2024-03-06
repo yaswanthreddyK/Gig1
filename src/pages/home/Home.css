@@ -1,0 +1,290 @@
+
+
+main{
+ width: 100vw;
+ font-family: 'Neue-medium';
+}
+
+.home-1{
+    font-family: 'Neue-bold';
+    padding: 60px 1em 0 1em;
+    background-color: #e9f5f0;
+    background-image: url("../../../public/img/globe.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+
+.hero{
+    display: flex;
+    flex:1;
+    max-width: 1200px;
+    min-height: 75vh;
+    position: relative;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.hero-content h2{
+    max-width: 18em;
+    font-size: 2rem;
+}
+.hero-content .green{
+    color:#4cae9b;
+    max-width: 22em;
+}
+
+
+
+.hero-content button{
+    padding: 0.5em;
+    font-size: 1.2rem;
+
+}
+
+button:hover{
+    transform: scale(1.03);
+}
+
+.search{
+   position: relative;
+    width: 100vw;
+    padding: 0 1em;
+}
+
+.search-div{
+    max-width: 800px;
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 0 0 3px -2px;
+}
+
+.search-div button{
+    font-size: 1rem;
+}
+
+.home-2{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    gap:5%;
+    padding: 2em 1em 1em;
+    margin: auto;
+}
+
+.home-2 .left-img-div{
+    width: 80%;
+    overflow: hidden;
+}
+
+.home-2 .left-img-div img{
+    display: block;
+    width:130%;
+    object-fit: cover;
+}
+
+.home-2 .right-content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+}
+
+.home-2 h2{
+    font-size: 3rem;
+    margin: 0px;
+}
+
+[class^="sub-content-"]{
+  display: flex;
+  gap:1em;
+  font-family: "Neue-light";
+  font-weight: 600;
+  color: #575757;
+}
+
+.home-2 .sub-content-icon-div {
+    width: 3.5em;
+    height: 3.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.home-2 .sub-content-icon-div img{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+
+
+.home-2 .sub-content-1 .sub-content-icon-div{
+    background-color: #ccefe3;
+}
+.home-2 .sub-content-2 .sub-content-icon-div{
+    background-color: #fef6d6;
+}
+.home-2 .sub-content-3 .sub-content-icon-div{
+    background-color: #fbcfd5;
+}
+
+.home-2 .sub-sub-content{
+    width: 20em;
+    letter-spacing: 2;
+
+}
+
+
+.home-3{
+    background-color: #25ae81;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3em;
+    padding: 0 1em;
+}
+
+.home-3 > div{
+   width: 50%;
+}
+
+.home-3 img{
+    width: 100%;
+    display: block;
+}
+
+.home-3 .professional-content{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3em;
+}
+
+.home-3 .professional-content h2{
+    font-size: 3rem;
+}
+
+.home-3 .professional-content p{
+    
+    font-family: 'Neue-roman';
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    
+}
+
+.home-3 .professional-content button{
+    background-color: white;
+    font-weight: bold;
+    padding: 1em 1.2em;
+    color: #2b2b2b;
+}
+
+
+@media (max-width: 985px){
+    .home-2{
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+    }
+
+    .home-2 .left-img-div{
+        width: 95%;
+        overflow: hidden;
+    }
+
+    .home-2 .left-img-div img{
+        width: 100%;
+    }
+
+    .home-2 .right-content {
+        gap: 2em;
+        align-items: center;
+    }
+
+    .home-2 .right-content h2{
+        font-size: 2.2rem;
+    }
+
+    .home-2 .sub-content-icon-div{
+        width: 2em;
+        height: 2em;
+    }
+
+    .home-3{
+        flex-direction: column;
+        padding: 0 0 2em 0;
+    }
+
+    .home-3 > div{
+        width: 100%;
+    }
+
+    .home-3 .professional-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .home-3 .professional-content > *:not(button){
+        max-width: 500px;
+    }
+}
+
+
+
+@media (max-width: 550px){
+    .home-2 .right-content h2{
+        font-size: 1.5rem;
+        
+    }
+
+    .home-2 .right-content{
+        margin: 0 1em;
+
+    }
+
+    .home-3 .professional-content > h2{
+        font-size: 2.5rem;
+    }
+
+    .home-3 .professional-content{
+       padding: 0 1em;
+    }
+
+}
+
+@media (max-width: 445px){
+    .hero-content h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .home-2 .left-img-div{
+        width: 100vw;
+    }
+
+    .hero-content button{
+        font-size: 1rem;
+    }
+
+    .home-2 .right-content .sub-sub-content{
+        font-size: 0.9rem;
+    }
+
+}
+
+
+
+
+

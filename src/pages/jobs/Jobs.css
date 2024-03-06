@@ -1,0 +1,65 @@
+
+.job-container{
+    display: flex;
+    margin  : 1em;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+
+.job-content{
+    display: flex;
+    width: 80vw;
+}
+
+
+.job-container .left-side{
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 0em;
+}
+
+.job-container .right-side{
+    padding: 2em;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    gap: 1em;
+    
+}
+.Mui-expanded {
+    margin: 0px !important;
+    box-shadow: none !important;
+  }
+  .Mui-expanded::before {
+    opacity: 1 !important;
+  }
+  .MuiPaper-rounded {
+    opacity: 1 !important;
+    box-shadow: none !important;
+    border-bottom: 2px solid rgb(241, 241, 241);
+
+  }
+
+
+@media (max-width: 950px){
+    .job-container{
+       padding: 0;
+    }
+
+    .job-container .left-side{
+        display: none;
+    }
+
+    .job-container .right-side{
+        margin: 0;
+        padding: 0;
+    }
+
+   
+
+}

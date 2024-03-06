@@ -1,0 +1,14 @@
+.job-card{
+    box-shadow: 0 0 3px -2px;
+    width: 50vw;
+}
+.MuiPaper-root{
+    margin: 0 !important;
+}
+
+@media (max-width: 950px){
+    .job-card{
+        width: 80vw;
+    }
+
+}

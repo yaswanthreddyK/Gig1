@@ -1,0 +1,29 @@
+
+.proposal-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+   letter-spacing: 1px;
+   margin: 3em 0;
+   }
+
+
+   .proposal-positioning{
+       width: 800px;
+       background-color: white;
+       box-shadow: 0 0 3px -2px;
+       padding: 1.5em;
+   }
+
+   .proposal-container .submit-button button{
+        padding: 0.8em 1.2em;
+        margin: 1em 0;
+        font-weight: 600;
+        letter-spacing: 1px;
+   }
+
+   .proposal-flex-direction{
+      display: flex;
+      flex-direction: column;
+   }

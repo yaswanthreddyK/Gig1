@@ -1,0 +1,37 @@
+.skill-container{
+    margin: 1em 0;
+}
+
+
+
+.professional-view-profile{
+  margin: 2em 2em;
+  
+}
+
+.professional-view-profile *{
+    font-family: 'Neue-roman';
+}
+
+.professional-view-profile button{
+    color: #4cae91;
+}
+
+.professional-view-profile button:hover{
+    background-color: #4cae91;
+    color: white;
+
+}
+
+.professional-view-profile .portfolio-img{
+    max-width: 200px;
+    display: none;
+}
+
+
+@media (max-width: 720px){
+    .professional-view-profile{
+        margin: 0px;
+        padding: 1em;
+    }
+}
